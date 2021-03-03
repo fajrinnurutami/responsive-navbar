@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* navbar */
+nav {
+    display: flex;
+    background-color: rgb(22, 108, 184);
+    justify-content: space-around;
+    /* padding: 20px 0; */
+    color: rgb(191, 219, 243);
+    height: 50px;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+    
+}
+
+nav ul li a {
+    color: rgb(191, 219, 243);
+    list-style: none;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+nav ul li a:hover {
+    color: #fff
+}
+
+nav .logo {
+    font-family: 'Akaya Telivigala', cursive;
+    letter-spacing: 1px;
+}
+
