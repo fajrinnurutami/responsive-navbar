@@ -42,3 +42,19 @@ nav .logo {
     letter-spacing: 1px;
 }
 
+/* Responsive Breakpoint */
+
+/* tablet size */
+@media screen and (max-width: 768px) {
+    nav ul {
+        width: 50%;
+    }
+}
+
+/* mobile size */
+@media screen and (max-width: 576px) {
+    nav ul {
+        display: none;
+        width: 50%;
+    }
+}
